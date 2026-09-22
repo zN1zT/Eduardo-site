@@ -378,6 +378,7 @@ body::after{
   letter-spacing:.04em;text-transform:uppercase;color:var(--navy);margin:1px 0 7px;
 }
 .cred li small{display:block;color:var(--muted);font-size:.7rem;line-height:1.45;letter-spacing:.03em}
+.cred li:last-child:nth-child(odd){grid-column:1/-1;min-height:0}
 
 .career-head{
   margin-top:52px;padding:0 2px 16px;display:flex;align-items:center;justify-content:space-between;gap:18px;
